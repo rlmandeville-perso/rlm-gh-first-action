@@ -6,6 +6,8 @@ jobs:
     steps:
       - name: Print greeting
         run: echo "Hello, is it me you're looking for?"
+      - name: Print home directory details
+        run: echo "${HOME}"
       - name: Print goodbye
         run: echo "Bye bye"
       
